@@ -1,0 +1,58 @@
+name: Bug Report
+description: Report a bug in netbox-companion
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - iOS
+        - Android
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Found in Settings → About, or the TestFlight build number
+      placeholder: e.g. 0.7.2 (build 42)
+    validations:
+      required: true
+
+  - type: input
+    id: netbox-version
+    attributes:
+      label: NetBox instance version (if known)
+      placeholder: e.g. 4.6.8
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to...
+        2. Tap on...
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots / logs (optional)
