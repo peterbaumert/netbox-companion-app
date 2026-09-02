@@ -1,5 +1,7 @@
 # netbox-companion
 
+[![Latest release](https://img.shields.io/github/v/release/peterbaumert/netbox-companion-app)](https://github.com/peterbaumert/netbox-companion-app/releases/latest)
+
 A mobile client for [NetBox](https://netbox.dev/) — look up and document
 devices, racks, and cabling from a rack or site visit.
 
