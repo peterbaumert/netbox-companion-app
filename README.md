@@ -19,7 +19,8 @@ verified against multiple NetBox versions, so no history is backfilled.
 
 | App version | Minimum NetBox version | Notes |
 |---|---|---|
-| v0.15.0 (current) | 4.2 | Core features work from 4.2+; VM type assignment and generic cluster scoping require 4.6+. Actively tested against 4.6.8. |
+| v0.20.0 (current) | 4.2 | Core features work from 4.2+; VM type assignment and generic cluster scoping require 4.6+. Actively tested against 4.6.8. |
+| v0.15.0 | 4.2 | Core features work from 4.2+; VM type assignment and generic cluster scoping require 4.6+. Actively tested against 4.6.8. |
 
 ## Reporting bugs / feature requests
 
