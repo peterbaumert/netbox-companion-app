@@ -64,9 +64,9 @@ no code — it's a dedicated space for testers and users to
 
 **Found a bug or have a feature request?** [Open a new issue](../../issues/new/choose).
 
-Please include the app version (Settings → About, or the release you
-installed), your NetBox version, the platform, and the steps that lead to
-the problem.
+Please include the app version (the release you installed; on Android the
+APK file name carries it), your NetBox version, the platform, and the steps
+that lead to the problem.
 
 **Issues are public.** Never paste an API token, and redact hostnames, IP
 addresses, tenant or customer names, and any object data from your NetBox
