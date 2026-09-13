@@ -24,9 +24,11 @@ The Android build is distributed as an APK on the
 
 1. Download `netbox-companion-<version>.apk` and its `.sha256` file from the
    release.
-2. Check the download: `sha256sum -c netbox-companion-<version>.apk.sha256`
-   on Linux/macOS, or `certutil -hashfile <file> SHA256` on Windows and
-   compare with the value in the `.sha256` file.
+2. Check the download and compare the result with the value in the
+   `.sha256` file:
+   - Linux: `sha256sum netbox-companion-<version>.apk`
+   - macOS: `shasum -a 256 netbox-companion-<version>.apk`
+   - Windows: `certutil -hashfile netbox-companion-<version>.apk SHA256`
 3. Open the APK on the phone and allow installs from that app (browser or
    file manager) when Android asks.
 
