@@ -9,11 +9,12 @@ devices, racks, and cabling from a rack or site visit.
 
 <!-- managed:ios:start -->
 **iOS (TestFlight):** [testflight.apple.com/join/BXWN56ZJ](https://testflight.apple.com/join/BXWN56ZJ)
+
+This version is awaiting Apple's beta review; external testers will see it once approved.
 <!-- managed:ios:end -->
 
 <!-- managed:android:start -->
-**Android:** not yet available. The first release-signed APK will appear
-here together with its SHA-256 checksum.
+**Android:** [netbox-companion-0.21.0.apk](https://github.com/peterbaumert/netbox-companion-app/releases/download/v0.21.0/netbox-companion-0.21.0.apk) — SHA-256 in [netbox-companion-0.21.0.apk.sha256](https://github.com/peterbaumert/netbox-companion-app/releases/download/v0.21.0/netbox-companion-0.21.0.apk.sha256). Sideload instructions and the update caveat are on the [release page](https://github.com/peterbaumert/netbox-companion-app/releases/tag/v0.21.0).
 <!-- managed:android:end -->
 
 ## Installing and updating on Android
@@ -52,7 +53,8 @@ verified against multiple NetBox versions, so no history is backfilled.
 <!-- managed:compat:start -->
 | App version | Minimum NetBox version | Notes |
 |---|---|---|
-| v0.20.0 (current) | 4.5 | Token validation uses /api/authentication-check/ (4.5+). VM type and host-device assignment shown from 4.6+. Verified against 4.6.9 and 4.7.0. |
+| v0.21.0 (current) | 4.5 | Token validation uses /api/authentication-check/ (4.5+). VM type and host-device assignment shown from 4.6+. Verified against 4.6.9 and 4.7.0. |
+| v0.20.0 | 4.5 | Token validation uses /api/authentication-check/ (4.5+). VM type and host-device assignment shown from 4.6+. Verified against 4.6.9 and 4.7.0. |
 | v0.15.0 | 4.2 | Core features work from 4.2+; VM type assignment and generic cluster scoping require 4.6+. Actively tested against 4.6.8. |
 <!-- managed:compat:end -->
 
